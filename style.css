@@ -7,28 +7,28 @@ there are definitely some properties you should add!*/
     }
     body {
        height: 100%;
-       background-color: #89D6FF;
-       background-image: url("drone.jpg");
+       background-color: olive;
+    /*   background-image: url("drone.jpg"); */
 
     }
     .img1{
-      height: 200px;
-      width: 400px;
+      height: ;
+      width: ;
     }
 
     header {
-        background-color: #391CFF;
+        background-color: khaki;
         padding:15px;
         font-size: 24 ;
-        color: lightblue;
+        color: darkgreen;
         display: block;
         width: 980px;
-        border: 15px solid blue;
+        border: 15px solid green;
         text-align: center;
     }
     nav {
-        line-height:;
-        background-color: #39D6FF;
+      /*  line-height:; */
+        background-color: #ff8724;
         width:125px;
         display: inline-block;
         vertical-align: top;
@@ -40,8 +40,11 @@ there are definitely some properties you should add!*/
         color: ;
     }
     section {
-        width: 516px;
+        height: auto;
+        background-color: #c2966d;
+        width: 420px;
         display: inline-block;
+        vertical-align: top;
     }
     aside {
       width: 125px;
@@ -54,13 +57,13 @@ there are definitely some properties you should add!*/
         list-style-type: none;
     }
     footer {
-        width: 940px;
-        background-color: #0F1887;
+        width: 946px;
+        background-color: khaki;
         padding:30px;
         display: block;
 
-        border: 15px solid blue;
-  color: lightgreen;
+        border: 15px solid green;
+  color: darkgreen;
         text-align: center;
         font-size:32;
 }
