@@ -13,3 +13,5 @@
         alert(' you rate this a scale of ' + scale);
         alert('your dog house status is' + ' ' + doghouse);
         alert('so, ' + mistake + ' to the ticking off, ' + scale + ' is the scale , '+ 'your dog house status is ' + doghouse + ', and ' + fixit + ' to the rose pedals fixing it.');
+
+// Work in progress.
