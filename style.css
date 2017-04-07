@@ -11,11 +11,11 @@ there are definitely some properties you should add!*/
     /*   background-image: url("drone.jpg"); */
 
     }
-    .img1{
-      height: ;
+    /*.img1{
+     height: ;
       width: ;
-    }
-
+    }*/
+/* head */
     header {
         background-color: khaki;
         padding:15px;
@@ -41,7 +41,7 @@ there are definitely some properties you should add!*/
     }
     section {
         height: auto;
-        background-color: #c2966d;
+        background-color: tan;
         width: 420px;
         display: inline-block;
         vertical-align: top;
