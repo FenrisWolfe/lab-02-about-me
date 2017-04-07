@@ -1,15 +1,18 @@
 // This is the code that will ask for input, either by typing in an answer or clicing ok or cancel as a yes or no prompt
-        var mistake = prompt('Did you tick off your Honey last night?');
-        var scale = prompt('How mad is she on a scale of 1 to 10?');
-        var doghouse = confirm('are you IN or OUT of the dog house?');
-        var fixit = prompt('will rose pedals sprinkled on the bed help?');
+        var military = prompt('Do you think I served in the Navy?');
+        var yearsServed = prompt('How how many years do you think I served?');
+        var k_9 = confirm('do you think I like dogs?');
+        var age = prompt('how old do you think I am?');
 // this is the output to the console and will not be seen by the user unless they open the console on their browser
-          console.log('mistake ', mistake);
-          console.log('scale ', scale);
-          console.log('doghouse ', doghouse);
-          console.log('fixit ', fixit);
+          console.log('military ', military);
+          console.log('yearsServed ', yearsServed);
+          console.log('k_9 ', k_9);
+          console.log('age ', age);
 // This will display the alerts / answers to the prompts and confirms
-        alert(' your mistake was ' + mistake);
-        alert(' you rate this a scale of ' + scale);
-        alert('your dog house status is' + ' ' + doghouse);
-        alert('so, ' + mistake + ' to the ticking off, ' + scale + ' is the scale , '+ 'your dog house status is ' + doghouse + ', and ' + fixit + ' to the rose pedals fixing it.');
+        alert(' you said ' + military + ' to my military service');
+
+        alert(' you think I did ' + yearsServed + ' years of service. I did over 24');
+
+        alert('your dog dog lover status is ' + ' ' + k_9);
+
+        alert('so you guessed, ' + military + ' to the question of did I serve, ' + yearsServed + ' is your guess to how many years I served, ' + ' your dog lover status is ' + k_9 + ', and ' + age + ' id the age that you guessed I am. I am 51 BTW.');
