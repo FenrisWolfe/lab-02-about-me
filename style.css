@@ -1,78 +1,73 @@
-/* Note to students: Some properties are given to you to fill out,
-others you can modify as they stand, and if you have time,
-there are definitely some properties you should add!*/
-
-    html {
-      height: 100%;
-    }
-    body {
-       height: 100%;
-       background-color: olive;
-    /*   background-image: url("drone.jpg"); */
-
-    }
-    /*.img1{
-     height: ;
-      width: ;
-    }*/
-/* head */
-    header {
-        background-color: khaki;
-        padding:15px;
-        font-size: 24 ;
-        color: darkgreen;
-        display: block;
-        width: 980px;
-        border: 15px solid green;
-        text-align: center;
-    }
-    nav {
-      /*  line-height:; */
-        background-color: #ff8724;
-        width:125px;
-        display: inline-block;
-        vertical-align: top;
-    }
-    nav ul {
-        list-style-type: none;
-    }
-    a {
-        color: ;
-    }
-    section {
-        height: auto;
-        background-color: tan;
-        width: 420px;
-        display: inline-block;
-        vertical-align: top;
-    }
-    aside {
-      width: 125px;
-      display: inline-block;
-      vertical-align: top;
-      background-color:;
-      font-size: ;
-    }
-    aside ul {
-        list-style-type: none;
-    }
-    footer {
-        width: 946px;
-        background-color: khaki;
-        padding:30px;
-        display: block;
-
-        border: 15px solid green;
-  color: darkgreen;
-        text-align: center;
-        font-size:32;
+/*this is the style sheet*/
+.clear-fix{
+  clear: both;
 }
-
-
-
-
-
-
-
-
-    }
+*{
+  padding: 0;
+  margin: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: auto;
+  height: 100%;
+  background-color: olive;
+  border: 10px dotted darkgreen;
+  border-style: outset;
+}
+header {
+  position: relative;
+  width: auto;
+  border-radius: 10px;
+  color: darkgreen;
+  background-color: khaki;
+  /*padding:15px;*/
+  font-size: 24 ;
+  display: block;
+  border: 5px solid green;
+  text-align: center;
+}
+#img1 {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #775B3D;
+}
+#Welcome {
+  float: right;
+  border-radius: 10px;
+  height: 50px;
+  background-color: tan;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid #775B3D;
+}
+#short-bio {
+  width: 50%;
+  margin-left: auto;
+  border: 3px solid green;
+  border-radius: 10px;
+  height: auto;
+  background-color: khaki;
+  float: right;
+}
+#bio-list{
+  list-style-position: inside;
+  padding-left: 10px;
+}
+footer {
+  position: relative;
+  border-radius: 10px;
+  width: auto;
+  background-color: khaki;
+  clear: both;
+  /*padding:30px;*/
+  display: block;
+  border: 3px solid green;
+  color: darkgreen;
+  text-align: center;
+  font-size:18pt;
+}
